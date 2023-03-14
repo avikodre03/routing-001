@@ -1,0 +1,7 @@
+.Project {
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 100%;
+    background-image: url(../Images/project.jpg);
+    background-size: cover;
+}

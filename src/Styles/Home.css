@@ -1,0 +1,65 @@
+.homePage {
+    height: 80vh;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.leftContainer {
+    height: 100%;
+    width: 43%;
+    padding-left: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.leftContainer h1 {
+    font-size: 2.7rem;
+    color: #596AFF;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.leftContainer p {
+    font-size: 1.3rem;
+    line-height: 2;
+    margin: 1rem 0;
+    margin-right: 10px;
+}
+
+.RightContainer {
+    height: 90%;
+    width: 57%;
+    /* border: 2px solid red; */
+    background-image: url(../Images/home.png);
+    background-size: cover;
+}
+
+.buttonContainer {
+    height: 10%;
+    width: 65%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.buttonContainer button {
+    height: 100%;
+    width: 45%;
+    /* outline: none; */
+    border-radius: 22px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #596AFF;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
