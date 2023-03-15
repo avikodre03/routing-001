@@ -88,12 +88,13 @@ a:link{
 }
 .enquire button{
     width: 50%;
-    height: 50%;
+    height: 45%;
     border-radius: 20px;
     outline: none;
     border: none;
     color: white;
     background-color: #596aff;
+    font-size: 1rem;
 }
 .enquire button:hover{
     color:blue;
